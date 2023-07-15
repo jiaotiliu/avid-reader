@@ -193,7 +193,7 @@ p>code, li>code, pre>code {
     padding-bottom: 20px;
 }
 
-// Menu panel 
+// 菜单面板
 .menu-panel {
     background-color: #fff;
 }
@@ -239,7 +239,8 @@ p>code, li>code, pre>code {
     color: var(--tertiary);
     background-color: transparent !important;
 }
-#navigation-bar {
+// 导航菜单修改
+.navigation-bar {
     margin-left: 20px;
 }
 .select-kit.combo-box .select-kit-header {
@@ -247,7 +248,7 @@ p>code, li>code, pre>code {
     border: none;
 }
 
-// Drop downs
+// 下拉列表
 .select-kit .select-kit-collection {
     background-color: #fff;
 }
@@ -255,7 +256,7 @@ p>code, li>code, pre>code {
     background-color: #fff;
 }
 
-// Buttons
+// 按钮
 #topic-footer-buttons .pinned-button, #topic-footer-buttons .topic-notifications-button {
     display: none;
 }
@@ -273,14 +274,14 @@ p>code, li>code, pre>code {
     background: var(--tertiary-hover);
 }
 
-/* User cards
+/* 用户卡
 .user-card .card-content, .group-card .card-content {
     padding: 35px 30px;
     background: #fff;
 }
 */
 
-// Badges
+// 徽章
 .badge-wrapper.box {
     border-radius: 0.25em;
     overflow: hidden;
@@ -291,7 +292,7 @@ p>code, li>code, pre>code {
     }
 }  
 
-// Categories page: Categories with featured topics
+// 分类页面：具有特色主题的分类
 .category-list .featured-topic .topic-post-badges .badge.unread-posts, .category-list .featured-topic .title {
     font-size: 18px;
     line-height: 1.2;  
@@ -313,7 +314,7 @@ p>code, li>code, pre>code {
     padding: 15px 5px;
 }
 
-// Categories page: Categories & latest topics 
+// 类别页面：类别和最新主题
 .latest-topic-list .table-heading, .top-topic-list .table-heading {
     padding: 20px 5px;
     border-bottom: 1px solid #c2c2c2;
@@ -322,7 +323,7 @@ p>code, li>code, pre>code {
     font-size: 18px;
 }
 
-// Categories page: Boxes with subcategories
+// 类别页面：包含子类别的方框
 .category-boxes .description {
     margin-top: 1em;
 }
@@ -368,7 +369,7 @@ p>code, li>code, pre>code {
 
 
 
-// Various
+// Various各种各样的
 aside.onebox {
     border: none;
     background: #fbfbfb;
