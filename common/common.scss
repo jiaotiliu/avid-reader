@@ -545,6 +545,12 @@ hr {
     background-color: var(--highlight-medium);
 }
 // 侧边栏调整
-.d-sidebar {
-   width: 400px;
+.sidebar-section-link-wrapper .sidebar-section-link {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    color: var(--d-sidebar-link-color);
+    transition: background-color .25s;
+    justify-content: flex-start;
+    flex-direction: row;
 }
