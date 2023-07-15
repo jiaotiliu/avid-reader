@@ -76,7 +76,7 @@ a.fancy-title {
     font-size: 16px;
 }
 .category-logo.aspect-image {
-    --max-height: 100px;
+    --max-height: 60px;
     max-height: var(--max-height);
     max-width: 100%;
     height: auto;
@@ -219,39 +219,6 @@ p>code, li>code, pre>code {
     background-color: #fff;
 }
 
-// Navigation pills
-.nav-pills>li>a {
-    color: var(--primary-high);
-    background: transparent;
-    padding: 6px 0 3px;
-    margin: 0 12px;
-    background-color: transparent !important;
-}
-.nav-pills>li a.active {
-    color: var(--tertiary);
-    border-bottom: solid 2px var(--tertiary);
-    background-color: transparent !important;
-}
-.nav-pills>li>a:hover {
-    color: var(--tertiary);
-    background-color: transparent !important;
-}
-// 导航菜单修改
-.navigation-bar {
-    margin-left: 20px;
-}
-.select-kit.combo-box .select-kit-header {
-    background-color: var(--primary-low);
-    border: none;
-}
-
-// 下拉列表
-.select-kit .select-kit-collection {
-    background-color: #fff;
-}
-.select-kit.single-select .select-kit-filter.is-expanded {
-    background-color: #fff;
-}
 
 // 按钮
 #topic-footer-buttons .pinned-button, #topic-footer-buttons .topic-notifications-button {
