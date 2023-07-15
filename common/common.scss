@@ -196,6 +196,8 @@ p>code, li>code, pre>code {
 // 菜单面板
 .menu-panel {
     background-color: #fff;
+    width: 100%;
+    
 }
 .search-menu input[type="text"] {
     background-color: #fff;
@@ -543,14 +545,4 @@ hr {
 
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
     background-color: var(--highlight-medium);
-}
-// 侧边栏调整
-.sidebar-section-link-wrapper .sidebar-section-link {
-    display: inline-flex;
-    width: 100%;
-    align-items: center;
-    color: var(--d-sidebar-link-color);
-    transition: background-color .25s;
-    justify-content: flex-start;
-    flex-direction: row;
 }
