@@ -3,7 +3,7 @@
 @import url('https://cdn.jsdelivr.net/npm/cn-fontsource-lxgw-neo-zhi-song-chs-regular-lxgw-neo-zhi-song/font.css');
 
 
-// Text styling
+// 文本样式
 body, h1, h2, h3, h4, h5 {
     font-family: 'LXGW WenKai', sans-serif;
 }
@@ -151,14 +151,14 @@ p>code, li>code, pre>code {
     transition: all 0.25s;
 }
 
-// Settings: Hide user card bg
+// 设置: 隐藏用户介绍页背景
 @if $hide_user_card_background == 'true' {
   .user-card .card-content, .group-card .card-content {
     background: #fff;
   }
 }
 
-// Header
+// 页眉
 .d-header {
     padding: 15px 0;
     border-bottom: 1px solid #ccc;
@@ -169,7 +169,7 @@ p>code, li>code, pre>code {
 }
 
 
-// Homepage banner
+// 主页banner
 #main .banner-box .container {
     max-width: 1100px !important;
 }
@@ -194,6 +194,16 @@ p>code, li>code, pre>code {
 }
 
 // 菜单面板
+/* 针对Safari浏览器的修复 */
+@supports (-webkit-line-clamp: 0) {
+  .menu-panel {
+    display: -webkit-box !important;
+    -webkit-line-clamp: initial !important;
+    -webkit-box-orient: vertical !important;
+    overflow: visible !important;
+  }
+}
+
 .menu-panel {
   &.user-menu.revamped {
     width: unset;
