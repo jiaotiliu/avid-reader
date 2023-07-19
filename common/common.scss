@@ -517,3 +517,8 @@ hr {
     color: #333;
     transition: background-color .25s;
 }
+
+.sidebar-section-link.active {
+    color: #dd0f0f;
+    background: var(--d-sidebar-highlight-background);
+}
