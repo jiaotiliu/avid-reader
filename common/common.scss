@@ -508,3 +508,12 @@ hr {
 .select-kit .select-kit-collection:hover .select-kit-row.is-highlighted:hover {
     background-color: var(--highlight-medium);
 }
+
+// 边栏修改
+.sidebar-section-link-wrapper .sidebar-section-link {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    color: #333;
+    transition: background-color .25s;
+}
