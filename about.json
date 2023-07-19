@@ -5,13 +5,13 @@
   "color_schemes": {
     "Avid Reader Palette": {
         "primary": "333333",
-        "primary-medium": "4a4035",
-        "secondary": "fbeee2",
+        "primary-medium": "483332",
+        "secondary": "f2e7e5",
         "tertiary": "d16528",
         "quaternary": "cccccc",
-        "header_background": "fbeee2",
+        "header_background": "f2e7e5",
         "header_primary": "333333",
-        "highlight": "f2ecbf",
+        "highlight": "f2e7e5",
         "danger": "d16528",
         "success": "688a68",
         "love": "d16528"
