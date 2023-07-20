@@ -538,8 +538,12 @@ hr {
 }
 
 // 按钮样式修改
-@media {
 .btn {
     font-weight: bold;
+}
+
+@media {
+.btn {
+    font-weight: normal;
 }
 }
