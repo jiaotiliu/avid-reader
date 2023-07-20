@@ -4,14 +4,14 @@
   "license_url": "null",
   "color_schemes": {
     "Avid Reader Palette": {
-        "primary": "333333",
+        "primary": "4a4035",
         "primary-medium": "483332",
         "secondary": "f2e7e5",
         "tertiary": "d16528",
         "quaternary": "cccccc",
-        "header_background": "f2e7e5",
+        "header_background": "fbeee2",
         "header_primary": "333333",
-        "highlight": "f2e7e5",
+        "highlight": "fbeee2",
         "danger": "d16528",
         "success": "688a68",
         "love": "d16528"
