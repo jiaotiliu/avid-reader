@@ -521,3 +521,10 @@ hr {
     color: #dd0f0f;
     background: var(--d-sidebar-highlight-background);
 }
+
+// 新用户页主题修改
+.new-user-wrapper .user-navigation .nav-pills li a.active {
+    color: #117471;
+    background: rgba(0,0,0,0);
+    border-bottom: var(--user-navigation__border-width) solid var(--quaternary);
+}
