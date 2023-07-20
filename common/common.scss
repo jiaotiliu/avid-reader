@@ -525,6 +525,7 @@ hr {
 // 新用户页主题修改
 .new-user-wrapper .user-navigation .nav-pills li a.active {
     color: #117471;
+    font-weight: bold;
     background: rgba(0,0,0,0);
     border-bottom: var(--user-navigation__border-width) solid var(--quaternary);
 }
