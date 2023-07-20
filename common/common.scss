@@ -535,3 +535,8 @@ hr {
 .title, .raw-link, .raw-topic-link {
     font-size: 20px;
 }
+
+// 设置内容背景
+.settings .setting.overridden.string textarea {
+    background-color: #d9eee1;
+}
