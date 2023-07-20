@@ -530,3 +530,10 @@ hr {
     background: rgba(0,0,0,0);
     border-bottom: var(--user-navigation__border-width) solid var(--quaternary);
 }
+
+// 按钮样式修改
+.btn {
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
