@@ -512,7 +512,6 @@ hr {
 .sidebar-section-link-wrapper .sidebar-section-link {
     display: inline-flex;
     width: 100%;
-    font-weight: bold;
     align-items: center;
     color: #333;
     transition: background-color .25s;
@@ -527,6 +526,7 @@ hr {
 .new-user-wrapper .user-navigation .nav-pills li a.active {
     color: #117471;
     background: rgba(0,0,0,0);
+    font-weight: bold;
     border-bottom: var(--user-navigation__border-width) solid var(--quaternary);
 }
 
