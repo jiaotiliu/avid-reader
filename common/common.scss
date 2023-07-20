@@ -536,14 +536,3 @@ hr {
 .title, .raw-link, .raw-topic-link {
     font-size: 20px;
 }
-
-// 按钮样式修改
-.btn {
-    font-weight: bold;
-}
-
-@media {
-.btn {
-    font-weight: normal;
-}
-}
