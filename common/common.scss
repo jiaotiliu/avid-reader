@@ -539,4 +539,8 @@ hr {
 // 设置内容背景
 .settings .setting.overridden.string input[type=text], .settings .setting.overridden.string input[type=password], .settings .setting.overridden.string textarea {
     background-color: #d9eee1;
+    
+}
+.settings .setting.overridden .values input {
+    background-color: #ddbc9f;
 }
